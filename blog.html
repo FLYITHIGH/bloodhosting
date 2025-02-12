@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="application-name" content="WiseHosting" />
+    <meta name="csrf-token" content="L1dW8dWSP5YLxXbNv5MIjsQFP8w92y2AjBMeThUD" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="#00B8FF" data-react-helmet="true" name="theme-color" />
+    <title>WiseHosting Blogs</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- meta tags -->
+    <meta name="title" content="WiseHosting Blogs" />
+    <meta name="description" content="We have a blog section to help you further in managing your Minecraft server. With these tips, tricks and downloads you will become a master of Minecraft.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.wisehosting.com/blog">
+    <meta property="og:title" content="WiseHosting Blogs">
+    <meta property="og:description" content="We have a blog section to help you further in managing your Minecraft server. With these tips, tricks and downloads you will become a master of Minecraft.">
+    <meta property="og:image" content="https://wisehosting.com/images/social.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.wisehosting.com/blog">
+    <meta property="twitter:title" content="WiseHosting Blogs">
+    <meta property="twitter:description" content="We have a blog section to help you further in managing your Minecraft server. With these tips, tricks and downloads you will become a master of Minecraft.">
+    <meta property="twitter:image" content="https://wisehosting.com/images/social.webp">
+
+    <link rel="icon" href="https://wisehosting.com/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/af35e03a637288725667465cbe909632.js">
+    </script>
+    <script>
+        ! function(Gleap, t, i) {
+            if (!(Gleap = window.Gleap = window.Gleap || []).invoked) {
+                for (window.GleapActions = [], Gleap.invoked = !0, Gleap.methods = ["identify", "setEnvironment", "setTags", "attachCustomData", "setCustomData", "removeCustomData", "clearCustomData", "registerCustomAction", "trackEvent", "log", "preFillForm", "showSurvey", "sendSilentCrashReport", "startFeedbackFlow", "startBot", "setAppBuildNumber", "setAppVersionCode", "setApiUrl", "setFrameUrl", "isOpened", "open", "close", "on", "setLanguage", "setOfflineMode", "initialize", "disableConsoleLogOverwrite", "logEvent", "hide", "enableShortcuts", "showFeedbackButton", "destroy", "getIdentity", "isUserIdentified", "clearIdentity", "openConversations", "openConversation", "openHelpCenterCollection", "openHelpCenterArticle", "openHelpCenter", "searchHelpCenter", "openNewsArticle", "openChecklists", "startChecklist", "openNews", "openFeatureRequests", "isLiveMode"], Gleap.f = function(e) {
+                        return function() {
+                            var t = Array.prototype.slice.call(arguments);
+                            window.GleapActions.push({
+                                e: e,
+                                a: t
+                            })
+                        }
+                    }, t = 0; t < Gleap.methods.length; t++) Gleap[i = Gleap.methods[t]] = Gleap.f(i);
+                Gleap.load = function() {
+                        var t = document.getElementsByTagName("head")[0],
+                            i = document.createElement("script");
+                        i.type = "text/javascript", i.async = !0, i.src = "https://sdk.gleap.io/latest/index.js", t.appendChild(i)
+                    }, Gleap.load(),
+                    Gleap.initialize("wtGHNEeiQ1IN0GSYoPAvh11dPBN8TCGd")
+            }
+        }();
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11143819074"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "AW-11143819074");
+    </script>
+
+    <link rel="preload" as="style" href="https://wisehosting.com/build/assets/app-JW-thSom.css" />
+    <link rel="stylesheet" href="https://wisehosting.com/build/assets/app-JW-thSom.css" data-navigate-track="reload" />
+    <!-- Livewire Styles -->
+    <style>
+        [wire\:loading][wire\:loading],
+        [wire\:loading\.delay][wire\:loading\.delay],
+        [wire\:loading\.inline-block][wire\:loading\.inline-block],
+        [wire\:loading\.inline][wire\:loading\.inline],
+        [wire\:loading\.block][wire\:loading\.block],
+        [wire\:loading\.flex][wire\:loading\.flex],
+        [wire\:loading\.table][wire\:loading\.table],
+        [wire\:loading\.grid][wire\:loading\.grid],
+        [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {
+            display: none;
+        }
+
+        [wire\:loading\.delay\.none][wire\:loading\.delay\.none],
+        [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest],
+        [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter],
+        [wire\:loading\.delay\.short][wire\:loading\.delay\.short],
+        [wire\:loading\.delay\.default][wire\:loading\.delay\.default],
+        [wire\:loading\.delay\.long][wire\:loading\.delay\.long],
+        [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer],
+        [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {
+            display: none;
+        }
+
+        [wire\:offline][wire\:offline] {
+            display: none;
+        }
+
+        [wire\:dirty]:not(textarea):not(input):not(select) {
+            display: none;
+        }
+
+        :root {
+            --livewire-progress-bar-color: #2299dd;
+        }
+
+        [x-cloak] {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body class="bg-defaultbg font-poppins flex flex-col justify-center items-center overflow-x-hidden min-h-screen h-full antialiased">
+    <div class="relative w-[100vw] min-h-screen h-full">
+        <div class="relative w-[100vw] min-h-screen h-full pb-[520px] md:pb-64">
+            <!--background: linear-gradient(90deg, #410058 0%, #9B51E0 30%, #0EDEAF 61%, #0EDEAF 78%, #006590 100%) -->
+            <a class="bg-gradient-to-r h-16 w-full hidden md:block" style="background: linear-gradient(90deg, #20193A 0%, #20193A 58%, #1BFF6829 67%, #20193A 77.6%, #20193A 100%);">
+                <div class="container mx-auto justify-center text-center text-xl font-semibold text-accent h-full flex flex-row items-center">
+                    <p class="text-center text-white">
+                        <span class="text-wgreen">Get 10% OFF</span> On your first order with
+                        <span class="text-wgreen border-wgreen border-dashed border rounded-md py-0.5 px-2 font-bold">SAVE10</span>
+                </div>
+            </a>
+            <a class="h-24 w-full md:hidden block" style="background: linear-gradient(160deg, #20193A 0%,#20193A 58%, #1BFF6829 98.04%, #20193A 100%)">
+                <div class="container mx-auto justify-center overflow-y-hidden text-center text-accent h-full flex flex-row items-center relative overflow-hidden">
+                    <div class="flex flex-col gap-1">
+                        <p class="text-center text-white text-lg">
+                            <span class="text-wgreen">Get 10% OFF</span> On your first order with
+                        </p>
+                        <p class="text-wgreen border-wgreen border-dashed border rounded-md py-1 px-2 font-bold text-lg">
+                            SAVE10</p>
+                    </div>
+                </div>
+            </a>
+            <!-- Three sections, logo, links, and login -->
+            <nav class="flex-row justify-between items-center px-10 text-white pt-4 hidden md:flex max-w-[110rem] mx-auto">
+                <div class="flex flex-row justify-start items-center gap-4">
+                    <a href="/" wire:navigate>
+                <img src="/images/logo.png" alt="WiseHosting" class="w-48">
+            </a>
+                </div>
+                <div class="flex flex-row justify-center items-center gap-12 font-poppins">
+                    <a href="/" wire:navigate>Home</a>
+                    <a href="https://www.wisehosting.com/blog" wire:navigate>Blog</a>
+                    <a href="https://help.wisehosting.com">FAQ</a>
+                    <a href="/billing/contact.php">Contact Us</a>
+                    <a href="/billing/cart.php?a=view">Cart</a>
+                </div>
+                <div class="flex flex-row justify-end items-center gap-4 ">
+                    <a href="/billing/login.php" class="font-semibold">Login</a>
+                    <a href="/#plans">
+                <button
+                    class="w-32 h-10 px-5 py-2.5 bg-gradient-to-r from-[#00B8FF] z-10 to-[#0AD3C5] rounded-2xl justify-center items-center gap-2.5 inline-flex transtion-all ease-in-out">
+                    <div class="text-[#0A0034] font-semibold">Order Now</div>
+                </button>
+            </a>
+                </div>
+            </nav>
+            <script>
+                function toggleMobileMenu() {
+                    var x = document.getElementById("mobilemenu");
+                    if (x.style.display === "none") {
+                        x.style.display = "flex";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
+            <nav class="flex flex-row justify-between items-center md:hidden px-8 pt-4">
+                <a class="flex flex-row justify-start items-center gap-4" href="/" wire:navigate>
+            <img src="/images/logo.png" alt="shulker" class="w-48">
+        </a>
+                <button class="flex flex-row justify-end items-center gap-4 " onclick="toggleMobileMenu()">
+            <svg width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0.0952148" y1="1.45703" x2="29.8618" y2="1.45703" stroke="white" stroke-width="2" />
+                <line x1="6.44336" y1="8.45703" x2="29.8619" y2="8.45703" stroke="white" stroke-width="2" />
+                <line x1="14.9785" y1="15.457" x2="29.8618" y2="15.457" stroke="white" stroke-width="2" />
+            </svg>
+        </button>
+            </nav>
+            <nav id="mobilemenu" style="display: none;" class="absolute min-h-[calc(100vh-6rem)] top-24 w-full md:hidden z-50">
+                <div class="flex flex-col gap-5 px-8 pt-4 bg-[#100B22] w-full rounded-xl text-white p-2 opacity-[.97] text-lg">
+                    <div class="flex flex-row justify-between items-center gap-4">
+                        <a href="/" wire:navigate>
+                    <img src="/images/logo.png" alt="shulker" class="w-48">
+                </a>
+                        <button class="flex flex-row justify-end items-center gap-4 " onclick="toggleMobileMenu()">
+                    <!-- Cross -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"
+                        height="800px" width="800px" viewBox="0 0 460.775 460.775" xml:space="preserve" class="w-5 h-5">
+                        <path
+                            d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55  c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55  c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505  c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55  l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719  c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z" />
+                    </svg>
+                </button>
+                    </div>
+                    <a href="/" wire:navigate>Home</a>
+                    <a href="https://www.wisehosting.com/blog" wire:navigate>Blog</a>
+                    <a href="https://help.wisehosting.com">FAQ</a>
+                    <a href="/billing/contact.php">Contact Us</a>
+                    <a href="/billing/cart.php?a=view">Cart</a>
+                    <a href="/billing/login.php">Login</a>
+                    <div class="flex flex-row gap-2">
+                        <a href="https://twitter.com/wisehostingcom" class="text-sm text-[#ACA9B4] mt-3">
+                    <img src="/images/homesvg/x.svg" class="w-8 inline">
+                </a>
+                        <a href="https://www.youtube.com/@wisehosting" class="text-sm text-[#ACA9B4] mt-3">
+                    <img src="/images/homesvg/youtube.svg" class="w-8 inline">
+                </a>
+                    </div>
+                    <p class="text-sm text-[#827F8F] font-normal mt-3">Copyright 2025 | WiseHosting OÜ</p>
+                </div>
+            </nav> <img src="https://wisehosting.com/images/blogbg.png" alt="shulker" class="absolute lg:w-screen max-h-screen overflow-hidden h-screen lg:h-auto top-0 -z-10 object-cover ">
+            <div wire:snapshot="{&quot;data&quot;:{&quot;paginators&quot;:[{&quot;page&quot;:1},{&quot;s&quot;:&quot;arr&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;GXyHFI8sn12zUaaIM8uk&quot;,&quot;name&quot;:&quot;blogs&quot;,&quot;path&quot;:&quot;blog&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;daa84edd67a0df46eac0dc4d11bd6337e9c566118b63d3f3c6386bd85133a360&quot;}"
+                wire:effects="{&quot;url&quot;:{&quot;paginators.page&quot;:{&quot;as&quot;:&quot;page&quot;,&quot;use&quot;:&quot;push&quot;,&quot;alwaysShow&quot;:false,&quot;except&quot;:null}}}" wire:id="GXyHFI8sn12zUaaIM8uk" class="container px-4 md:mx-auto justify-center mt-16 flex flex-col items-center text-white gap-14 pb-24">
+
+                <div class="flex flex-col items-center max-w-xl">
+                    <div class="text-3xl font-semibold text-poppins flex flex-wrap items-center justify-center text-center">
+                        <h1>Stay Thrilled with the</h1>
+                        <img src="/images/honeycomb-slayer.png" class="w-12 h-12 mx-2">
+                        <h1>Buzz</h1>
+                    </div>
+                    <p class="text-center text-sm text-[#ACA9B4] mt-4">We have a blog section to help you further in managing your Minecraft server. With these tips, tricks and downloads you will become a master of Minecraft.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6 overflow-show" id="blogs">
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-46" href="https://www.wisehosting.com/blog/best-mods-to-play-survival-minecraft" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01JJCT0TNG3283NQ12NK2ZDV8Q.webp" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">Best Mods to Play Survival Minecraft (w/ Modpack Download Link)
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-45" href="https://www.wisehosting.com/blog/top-5-christmas-modpacks-for-minecraft" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01JFYY9M9RD31BXZWFYPH9ZF0W.webp" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">TOP 5 Christmas Modpacks for Minecraft
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-44" href="https://www.wisehosting.com/blog/best-minecraft-farms-to-build-in-121" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01JD5ZJZWCYV2HX2BH0PB6NEDB.webp" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">Best Minecraft Farms to Build in 1.21+
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-40" href="https://www.wisehosting.com/blog/where-to-find-a-good-minecraft-skin" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01JBHC0SYCTH6YVH17TF0YY5D4.webp" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">Where To Find a Good Minecraft Skin?
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-43" href="https://www.wisehosting.com/blog/whats-new-in-the-brand-new-1212-update-snapshot-24w40a" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J9A21TZZKTNQ37GSEFRSQCZF.webp" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">What&#039;s new in the brand new 1.21.2 update (snapshot 24w40a)?
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-39" href="https://www.wisehosting.com/blog/21-best-and-unique-seeds-in-minecraft-121" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J7TTDY6MRQ6AV2JKGB9157NF.jpg" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">21 Best And Unique Seeds in Minecraft 1.21
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-38" href="https://www.wisehosting.com/blog/minecraft-movie-release-date-and-information" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J6CNN179VAV7R3E9J01KT1T0.webp" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">Minecraft Movie: Release Date and Information
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-31" href="https://www.wisehosting.com/blog/minecraft-realms-vs-server-hosting-which-is-better" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J47MM8H8X4MHJ1YD3CNMB2E3.png" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">Minecraft Realms vs Server Hosting: Which is Better?
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-37" href="https://www.wisehosting.com/blog/the-official-minecraft-server-list-website-why-should-you-use-it" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J3A3CDXB6DJ8FNS2QEQ4PC17.png" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">The Official Minecraft Server List Website: Why should you use it?
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-36" href="https://www.wisehosting.com/blog/the-most-downloaded-texture-packs-in-minecraft" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J38ADMP0R51VBPV2BGVXC4JC.jpg" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">The Most Downloaded Texture Packs in Minecraft!
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-32" href="https://www.wisehosting.com/blog/how-to-update-your-server-to-121" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J0CB9VQ461CQEK49S94R5WMQ.jpg" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">How to Update Your Server to 1.21
+                                    </h2>
+            </div>
+        </a>
+                    <a class="bg-[#100B22] bg-opacity-80 h-full rounded-3xl relative text-white max-w-[400px]" id="blog-33" href="https://www.wisehosting.com/blog/top-10-seeds-for-minecraft-121" wire:navigate>
+            <img src="/images/bg/blue.svg" class="absolute z-0 top-0">
+            <div class="p-4 px-6">
+                <img src="https://cdn.wisehosting.com/01J0BPV8ZZ62KHR0N8EAR478VY.webp" class="w-full object-cover rounded-lg h-[200px]">
+                <h2 class="text-lg text-white mt-2">TOP 10 seeds for Minecraft 1.21!
+                                    </h2>
+            </div>
+        </a>
+                </div>
+
+                <!-- Pagination -->
+                <div class="flex gap-2 mt-8 items-center">
+                    <div>
+                        <nav role="navigation" aria-label="Pagination Navigation" class="flex gap-2 items-center">
+                            <span>
+                                    <span class="bg-[#100B22] text-white px-4 py-2 rounded-lg">Previous</span>
+                            </span>
+
+                            <span>
+                                <button wire:click="gotoPage(1)" wire:loading.attr="disabled"
+                                    class="bg-[#00C8B9] text-white px-4 py-2 rounded-lg">1</button>
+                            </span>
+                            <span>
+                                <button wire:click="gotoPage(2)" wire:loading.attr="disabled"
+                                    class="bg-[#100B22] text-white px-4 py-2 rounded-lg">2</button>
+                            </span>
+                            <span>
+                                <button wire:click="gotoPage(3)" wire:loading.attr="disabled"
+                                    class="bg-[#100B22] text-white px-4 py-2 rounded-lg">3</button>
+                            </span>
+                            <span>
+                                <button wire:click="gotoPage(4)" wire:loading.attr="disabled"
+                                    class="bg-[#100B22] text-white px-4 py-2 rounded-lg">4</button>
+                            </span>
+
+
+                            <span>
+                                    <button wire:click="nextPage" wire:loading.attr="disabled" rel="next"
+                        class="bg-[#100B22] text-white px-4 py-2 rounded-lg">Next</button>
+                            </span>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+            <footer class="bg-[#100B22] mt-6 pt-6 pb-4 absolute bottom-0 w-full">
+                <div class="container mx-auto">
+                    <div class="grid md:grid-cols-4 gap-y-2 md:gap-y-0 ml-8">
+                        <img src="/images/logo.png" class="h-6">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-white text-base">WiseHosting</h3>
+                            <a href="https://help.wisehosting.com" class="text-sm text-[#ACA9B4] mt-3">
+                    <img src="/images/homesvg/tutorials.svg" class="w-4 inline">
+                    Tutorials</a>
+                            <a href="https://wisehosting.com/#minecraft" class="text-sm text-[#ACA9B4] mt-2">
+                    <img src="/images/homesvg/minecraftserves.svg" class="w-4 inline">
+                    Minecraft Servers</a>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-white text-base">Client Area</h3>
+                            <a href="/billing/supporttickets.php" class="text-sm text-[#ACA9B4] mt-3">
+                    <img src="/images/homesvg/supportg.svg" class="w-4 inline">
+                    Support</a>
+                            <a href="https://panel.wisehosting.com/auth/sso" class="text-sm text-[#ACA9B4] mt-2">
+                    <img src="/images/homesvg/gamepanel.svg" class="w-4 inline">
+                    Game Panel</a>
+                            <a href="/billing/clientarea.php" class="text-sm text-[#ACA9B4] mt-2">
+                    <img src="/images/homesvg/billinge.svg" class="w-4 inline">
+                    Billing Area</a>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-white text-base">Legal</h3>
+                            <a href="/tos" class="text-sm text-[#ACA9B4] mt-3">
+                    Terms of Service</a>
+                            <a href="/privacypolicy" class="text-sm text-[#ACA9B4] mt-2">
+                    Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="flex flex-row gap-2 ml-8">
+                        <a href="https://twitter.com/wisehostingcom" class="text-sm text-[#ACA9B4] mt-3">
+                <img src="/images/homesvg/x.svg" class="w-8 inline">
+            </a>
+                        <a href="https://www.youtube.com/@wisehosting" class="text-sm text-[#ACA9B4] mt-3">
+                <img src="/images/homesvg/youtube.svg" class="w-8 inline">
+            </a>
+                    </div>
+                    <div class="flex flex-col md:flex-row justify-between mt-4 mx-8 mb-2">
+                        <p class="text-sm text-[#827F8F] mt-3">WiseHosting OÜ | Registration code: 16623499 | VAT ID: EE102561531
+                        </p>
+                        <p class="text-sm text-[#827F8F] mt-3">Copyright 2025 | WiseHosting OÜ</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <link rel="modulepreload" href="https://wisehosting.com/build/assets/app-Xaw6OIO1.js" />
+        <script type="module" src="https://wisehosting.com/build/assets/app-Xaw6OIO1.js" data-navigate-track="reload"></script>
+        <script src="/livewire/livewire.min.js?id=38dc8241" data-csrf="L1dW8dWSP5YLxXbNv5MIjsQFP8w92y2AjBMeThUD" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+</body>
+
+</html>
